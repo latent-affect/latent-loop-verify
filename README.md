@@ -1,4 +1,4 @@
-# aor-loop
+# latent-loop-verify
 
 **AI self-verification via visual ground truth.**
 
