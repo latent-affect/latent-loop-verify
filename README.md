@@ -1,4 +1,4 @@
-# aor-loop
+# latent-loop-verify
 
 **AI self-verification via visual ground truth.**
 
@@ -9,7 +9,7 @@ and retries on failure — without a human in the loop.
 ```
 Model generates fix
        ↓
-  Visual check       ← aor-loop lives here
+  Visual check       ← latent-loop-verify lives here
        ↓
  Pass → done
  Fail → model sees failure → retries → converges
@@ -30,7 +30,7 @@ Traditional loop:
 Model → claims success → human verifies → loop
 ```
 
-With aor-loop:
+With latent-loop-verify:
 ```
 Model → generates fix → visual check → detects failure → retries → converges
 ```
@@ -172,7 +172,7 @@ sane default.
 
 ## Tested on
 
-- MAIF Visualizer (canvas-based, sovereign JSON, 3 tabs) — 3/3 PASS at 14-16% pixel diff
+- Valence-Affective Audio visualizer (canvas-based, sovereign JSON, 3 tabs) — 3/3 PASS at 14-16% pixel diff
 - Playwright 1.x, Python 3.10+, macOS / Linux
 
 ---
@@ -187,8 +187,8 @@ sane default.
 
 ## Part of the latent-affect research stack
 
-- **aor-dmma** — Dynamic Music Metric Analysis pipeline (AI transcription bias research)
-- **aor-loop** — this repo (Automated Perception Loop)
+- **[valence-affective-audio](https://github.com/latent-affect/valence-affective-audio)** — Computational music analysis pipeline for hip-hop and spoken word
+- **[latent-loop-verify](https://github.com/latent-affect/latent-loop-verify)** — this repo (Automated Perception Loop)
 
 ---
 
